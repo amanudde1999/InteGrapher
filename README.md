@@ -58,11 +58,14 @@ This may take a few seconds due to the extensiveness of the parsing software.
 This will create the executable file and the object files.
 
 Then go to the client directory and in terminal use the following command:
+				 
 				 "make upload && serial-mon"
 
 Wait for the serial-mon to load and then quit serial-mon by pressing contol-a then x and then enter to Leave the MiniCom.
 
-Now go to the computer directory and type "./serialtest"
+Now go to the computer directory and type: 
+
+					"./serialtest"
 
 Wait for server to print all the messeges until it shows "Waiting for client to reply for the preveios message"
 
