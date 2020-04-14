@@ -9,7 +9,7 @@ Contributions:
 Amro: GUI, enumeration, communication, parser.
 Pushkar: GUI, enumeration, communication, parser.
 
-Files included in this submission are:
+Files included are:
 --------------------------------------
 
 	client:
