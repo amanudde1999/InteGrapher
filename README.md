@@ -6,8 +6,9 @@ Description: The Integrapher, a combination of an integration and graphical soft
 Contributions:
 -------------
 
-Amro: GUI, enumeration, communication, parser.
-Pushkar: GUI, enumeration, communication, parser.
+- Amro: GUI, enumeration, communication, parser.
+
+- Pushkar: GUI, enumeration, communication, parser.
 
 Files included are:
 --------------------------------------
