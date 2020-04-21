@@ -1,0 +1,37 @@
+A simple program to convert some .bmp files into the 565 .lcd format we use
+in CMPUT 275. Most of this is from a comment in this forum thread:
+
+https://forum.arduino.cc/index.php?topic=356479.0
+
+It was modified to work with Python3 and to print out image statistics to a
+separate .txt file.
+
+Usage:
+python3 bmp2lcd.py <image.bmp> <destination.lcd>
+
+Where
+ - image.bmp is the name of the .bmp file you wish to convert
+ - destination.lcd is the name of the .lcd file you wish to create
+
+This will also create a file destination.lcd.txt with some basic information
+about the file including the width and height in pixels.
+
+EXAMPLE:
+The file FLAG_B24.bmp is included as an example.
+Source: https://www.fileformat.info/format/bmp/sample/index.htm
+
+Try:
+python3 bmp2lcd.py FLAG_B24.bmp FLAG_B24.lcd
+
+This will save the .lcd file as FLAG_B24.lcd and create another file
+FLAG_B24.lcd.txt which indicates the width and height in pixels (both 124).
+
+Then, just copy the .lcd fild itself to the root of the SD card and you can use
+it! The width and height must be known when you use the lcd_image.h library
+we used in class.
+
+BMP Requirements:
+The BMP should be in "RGB" or "RGBA" colour mode. If you are not sure if yours
+is, try the tool anyway. If it does not work, the file you started with is either
+not a .bmp file or is not in the correct colour mode. In the latter case, you can
+probably find an online converter.
