@@ -1,3 +1,5 @@
+Reference: The following program is from the CMPUT 275 course. 
+
 A simple program to convert some .bmp files into the 565 .lcd format we use
 in CMPUT 275. Most of this is from a comment in this forum thread:
 
