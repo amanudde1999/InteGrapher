@@ -33,6 +33,11 @@ Files included are:
 	- Makefile 
 
 	README
+	
+	bmp2lcd:
+	- bmp2lcd.py
+	- FLAG_B24.bmp
+	- README (on how to use the program)
 
 Required Components:
 --------------------
